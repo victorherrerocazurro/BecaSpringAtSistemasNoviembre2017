@@ -1,0 +1,10 @@
+Factoria de coches:
+
+	* Bean que sea capaz de crear objetos Coche, a partir de un parametro de 
+	entrada del método de factoria
+	* Donde los coches podrán ser Ferrari, Renault y Fiat.
+	* La Factoria tendra como dependencia un Bean de tipo Empleado, que será el
+	director y será obligatorio.
+	* La aplicacion, creará dos factorias distintas, que compartiran el mismo 
+	director.
+	* Cada una de las factoria debe crear un coche de cada tipo.
