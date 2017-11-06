@@ -15,5 +15,5 @@
 	
 	<bean id="miDios" class="com.atsistemas.applicationcontext.core.entidades.Dios" factory-method="getInstance"/>
 	
-	<bean class="java.lang.String" factory-bean="miDios" factory-method="crearHombres"></bean>
+	<bean id="miAdan" class="java.lang.String" factory-bean="miDios" factory-method="crearHombres"></bean>
 </beans> 
