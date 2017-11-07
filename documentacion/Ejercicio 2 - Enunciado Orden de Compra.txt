@@ -8,4 +8,10 @@ Crear una aplicacion con Spring, con arquitectura de n capas
 		* El Cliente forma parte del sistema (necesitamos conocer donde enviar el producto, a quien cobrar)
 		* Tenemos persistencia de los Productos y su Stock, pero no está claro como implementarlo
 
+Producto
+	* Nombre
+	* Descripcion
+	* Cantidad
+	* Precio
+
 NO INVENTARSE NADA
