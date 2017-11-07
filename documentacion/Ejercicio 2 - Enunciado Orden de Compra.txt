@@ -14,4 +14,16 @@ Producto
 	* Cantidad
 	* Precio
 
+Empresa Transporte
+	* Nombre
+	* Region
+	
+Datos de Cobro?????
+
+Compra
+	* Productos
+	* DireccionEntrega
+	* EmpresaTransporte
+	
+
 NO INVENTARSE NADA
