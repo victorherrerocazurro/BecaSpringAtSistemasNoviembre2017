@@ -5,5 +5,6 @@ Crear una aplicacion con Spring, con arquitectura de n capas
 		* Iniciar el envio de producto a traves de una empresa de mensajeria (puede haber varias).
 		* Actualizar el Stock del producto.
 		* El Cliente forma parte del sistema (necesitamos conocer donde enviar el producto, a quien cobrar)
+		* Tenemos persistencia de los Productos y su Stock, pero no está claro como implementarlo
 
 NO INVENTARSE NADA
