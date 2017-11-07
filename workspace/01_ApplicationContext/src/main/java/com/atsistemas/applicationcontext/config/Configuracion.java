@@ -18,8 +18,8 @@ public class Configuracion {
 	@Scope("prototype")
 	@Autowired
 	public Controlador miControlador(@Qualifier("miServicio") Servicio servicio) {
-		//return new Controlador(servicio);
-		return new Controlador(miServicio());
+		return new Controlador(servicio);
+		//return new Controlador(miServicio());
 	}
 	
 	@Bean
