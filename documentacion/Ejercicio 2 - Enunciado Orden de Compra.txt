@@ -4,6 +4,6 @@ Crear una aplicacion con Spring, con arquitectura de n capas
 		* Que al cliente se le cobre la compra.
 		* Iniciar el envio de producto a traves de una empresa de mensajeria (puede haber varias).
 		* Actualizar el Stock del producto.
-
+		* El Cliente forma parte del sistema (necesitamos conocer donde enviar el producto, a quien cobrar)
 
 NO INVENTARSE NADA
