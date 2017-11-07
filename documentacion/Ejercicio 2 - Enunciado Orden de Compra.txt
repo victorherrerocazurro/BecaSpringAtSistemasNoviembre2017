@@ -1,8 +1,8 @@
 Crear una aplicacion con Spring, con arquitectura de n capas
 
-	* Capacidad de iniciar el proceso de compra de un producto.
+	* Capacidad de iniciar el proceso de compra de 1-n productos.
 		* Que al cliente se le cobre la compra.
-		* Iniciar el envio de producto a traves de una empresa de mensajeria.
+		* Iniciar el envio de producto a traves de una empresa de mensajeria (puede haber varias).
 		* Actualizar el Stock del producto.
 
 
