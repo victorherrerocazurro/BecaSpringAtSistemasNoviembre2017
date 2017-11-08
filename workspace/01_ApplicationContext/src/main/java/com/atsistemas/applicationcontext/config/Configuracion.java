@@ -22,7 +22,7 @@ public class Configuracion {
 		//return new Controlador(miServicio());
 	}
 	
-	@Bean
+	//@Bean
 	//@Scope("singleton")
 	public Servicio miServicio() {
 		return new ServicioBasico();
