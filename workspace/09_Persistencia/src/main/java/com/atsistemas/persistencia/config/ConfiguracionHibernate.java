@@ -15,10 +15,12 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.orm.hibernate5.HibernateTemplate;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @ComponentScan({"com.atsistemas.persistencia.core.servicios","com.atsistemas.persistencia.core.persistencia.hibernate"})
 @PropertySource("classpath:database.properties")
+@EnableTransactionManagement
 public class ConfiguracionHibernate {
 
 	@Bean
@@ -42,6 +44,7 @@ public class ConfiguracionHibernate {
 		hibernateProperties.setProperty("hibernate.show_sql", "true");
 		hibernateProperties.setProperty("hibernate.format_sql", "true");
 		hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "create");
+		//hibernateProperties.setProperty("hibernate.current_session_context_class","thread");
 		
 		return lsfb;
 	}

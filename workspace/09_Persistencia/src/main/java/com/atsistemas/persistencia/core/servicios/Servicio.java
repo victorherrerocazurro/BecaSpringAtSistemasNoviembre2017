@@ -2,6 +2,8 @@ package com.atsistemas.persistencia.core.servicios;
 
 import java.util.List;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -9,6 +11,7 @@ import com.atsistemas.persistencia.core.entidades.Cliente;
 import com.atsistemas.persistencia.core.persistencia.ClienteDao;
 
 @Service
+@Transactional
 public class Servicio {
 
 	private ClienteDao clienteDao;

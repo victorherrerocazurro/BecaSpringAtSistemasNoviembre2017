@@ -1,4 +1,4 @@
-Crear una aplicacion con Spring, con arquitectura de n capas
+﻿Crear una aplicacion con Spring, con arquitectura de n capas
 
 	* Capacidad de iniciar el proceso de compra de 1-n productos.
 		* Que al cliente se le cobre la compra.
@@ -6,7 +6,7 @@ Crear una aplicacion con Spring, con arquitectura de n capas
 		* La seleccion de la empresa de mensajeria estara basada en el destino del envio.
 		* Actualizar el Stock del producto.
 		* El Cliente forma parte del sistema (necesitamos conocer donde enviar el producto, a quien cobrar)
-		* Tenemos persistencia de los Productos y su Stock, pero no está claro como implementarlo
+		* Tenemos persistencia de los Productos y su Stock, realizar con JPA-DATA y MySQL.
 
 Producto
 	* Nombre

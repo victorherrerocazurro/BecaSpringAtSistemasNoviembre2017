@@ -2,6 +2,7 @@ package com.atsistemas.persistencia.core.entidades;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -13,6 +14,7 @@ public class Cliente {
 
 	@Id
 	private int id;
+	@Column(name="NAME")
 	private String nombre;
 	private String direccion;
 	private String telefono;
