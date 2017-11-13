@@ -1,4 +1,4 @@
-package com.atsistemas.webmvc.presentacion.controller;
+package com.atsistemas.webboot.presentacion.controller;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.view.JstlView;
 
-import com.atsistemas.webmvc.core.dto.PersonaDto;
+import com.atsistemas.webboot.core.dto.PersonaDto;
 
 @Controller
 public class Controlador {
@@ -23,15 +23,14 @@ public class Controlador {
 		return new ModelAndView("home", model);
 	}
 	
+	//No es el metodo mas habitual de emplear los View, lo normal es 
+	//desacoplar con los ViewResolver
 	@RequestMapping(path="/View", method=RequestMethod.GET)
 	public View view(PersonaDto persona, Model model) {
 		model.addAttribute("clave", persona);
 		return new JstlView("/WEB-INF/views/home.jsp");
 	}
 	
-	//Para este método del controlador se emplea el ViewResolver, por lo que
-	//obtenemos un desacoplamiento del controlador con la tecnologia de las
-	//vistas a emplear
 	@RequestMapping(path="/Clave", method=RequestMethod.GET)
 	public String clave(PersonaDto persona, Model model) {
 		model.addAttribute("clave", persona);
