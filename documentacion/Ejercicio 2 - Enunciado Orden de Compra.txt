@@ -5,6 +5,9 @@
 		* Iniciar el envio de producto a traves de una empresa de mensajeria (puede haber varias).
 		* La seleccion de la empresa de mensajeria estara basada en el destino del envio.
 		* Actualizar el Stock del producto.
+		* Notificar al cliente a traves de sms y mail, con la posibilidad de
+		extender las formas de notificacion en sucesivas versiones.
+		
 		* El Cliente forma parte del sistema (necesitamos conocer donde enviar el producto, a quien cobrar)
 		* Tenemos persistencia de los Productos y su Stock, realizar con JPA-DATA y MySQL.
 
